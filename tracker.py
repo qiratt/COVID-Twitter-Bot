@@ -65,5 +65,3 @@ if __name__ == '__main__':
         tweet = build_tweet()
         api.update_status(tweet)
         print('Successfully tweeted')
-
-# LEARN HOW TO PROPERLY INDENT SO YOUR CODE CAN CORRECTLY RUN
