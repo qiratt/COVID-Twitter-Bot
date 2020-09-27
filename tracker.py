@@ -31,7 +31,8 @@ def build_tweet():
 
     tweet = f'''Covid-19 Latest Updates 😷
                 \n
-
+        # find a library that prints out emoji rather than pasting them in, 
+        # would be more universal and better practice.
         Total cases: {total_cases} 🤒
         Deaths: {total_deaths} ☠️
         Recovered: {total_recovered} 🤕
@@ -52,7 +53,7 @@ if __name__ == '__main__':
 
         # creating of application program interface object
         api = tweepy.API(authorization)
-        # 'API' must be CAPITALIZED when using tweepy!!
+        # 'API' must be CAPITALIZED
 
         try:
             api.verify_credentials()
